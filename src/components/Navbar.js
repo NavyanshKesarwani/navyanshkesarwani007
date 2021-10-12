@@ -11,18 +11,18 @@ export const Navbar = () => {
         <nav>
         <div className="navbar">
         <ul className="nav-items">
-            <li><Link style={{textDecoration: 'none', color: 'inherit'}} to="/navyanshkesarwani007/">Home</Link></li>
-            <li><Link style={{textDecoration: 'none', color: 'inherit'}} to="/navyanshkesarwani007/projects">Projects</Link></li>
-            <li><Link style={{textDecoration: 'none', color: 'inherit'}} to="/navyanshkesarwani007/about">About</Link></li>
+            <li><Link style={{textDecoration: 'none', color: 'inherit'}} to="/">Home</Link></li>
+            <li><Link style={{textDecoration: 'none', color: 'inherit'}} to="/projects">Projects</Link></li>
+            <li><Link style={{textDecoration: 'none', color: 'inherit'}} to="/about">About</Link></li>
         </ul>
         <CustomSwitch>
-            <Route path="/navyanshkesarwani007/about">
+            <Route path="/about">
                 <About/>
             </Route>
-            <Route path="/navyanshkesarwani007/projects">
+            <Route path="/projects">
                 <Projects/>
             </Route>
-            <Route path="/navyanshkesarwani007/">
+            <Route path="/">
                 <Header/>
             </Route>
         </CustomSwitch>
