@@ -18,11 +18,11 @@ export const CustomSwitch = ({ children }) => {
       setProgress(true)
       if(location.pathname===prevLoc){
           setPrevLoc('')}
-   }, [location, prevLoc])
+   }, [location])
 
    useEffect(() => {
       setProgress(false)
-   }, [prevLoc])
+   }, [prevLoc]) // eslint-disable-next-line
 
    return (
       <>
