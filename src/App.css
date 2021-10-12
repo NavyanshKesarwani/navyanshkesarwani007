@@ -1,38 +1,410 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+@-webkit-keyframes scale-up-center{0%{-webkit-transform:scale(.5);transform:scale(.5)}100%{-webkit-transform:scale(1);transform:scale(1)}}@keyframes scale-up-center{0%{-webkit-transform:scale(.5);transform:scale(.5)}100%{-webkit-transform:scale(1);transform:scale(1)}}
+@keyframes scale-up-center{0%{transform:scale(.5)}100%{transform:scale(1)}}
+
+
+@media only screen and (min-width:1618px){
+
+  .header {
+    font-size: 48px;
+    text-align: center;
+    color: #0075FF;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+
+  .professional-tagline {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 32px;
+    padding-bottom: 5%;
+  }
+
+  .tagline-area {
+    padding-top: 2%;
+    width: 60%;
+    margin: auto;
+  }
+
+  .navbar {
+    width: 100%;
+    /* background-color: #0075FF; */
+  }
+
+  .nav-items {
+    margin: auto;
+    display: flex;
+    align-items: stretch;
+    list-style: none;
+    justify-content: left;
+  }
+
+  .nav-items li {
+    font-size: 20px;
+    padding: 20px;
+    color: #0075FF;
+    font-family: 'Ubuntu', sans-serif;
+
+  }
+
+
+  .nav-items li:hover {
+    font-size: 20px;
+    padding: 20px;
+    color: white;
+    background-color: #0075FF;
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 5px;
+  }
+
+  .my-image {
+    width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px
+  }
+
+  .neoai-image {
+    float: right;
+    margin-right: 5%;
+    border-radius: 100px
+  }
+
+  .memecon-image {
+    float: left;
+    margin-left: 5%;
+    border-radius: 100px;
+    margin-top:10%
+  }
+
+  .description {
+    text-align: justify;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 32px;
+  }
+
+  .project-description-1 {
+    width: 50%;
+    float:left;
+    margin-left:5%;
+  }
+
+  .project-description-2 {
+    width: 50%;
+    float:right;
+    margin-right:-25%;
+    margin-top:10%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .header {
+    font-size: 35px;
+    text-align: center;
+    color: #0075FF;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  .tagline-area {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .professional-tagline {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 28px;
+  }
+  
+  .navbar {
+    width: 100%;
+    /* background-color: #0075FF; */
+  }
+
+  .nav-items {
+    margin: auto;
+    display: flex;
+    align-items: stretch;
+    list-style: none;
+    justify-content: center;
+  }
+
+  .nav-items li {
+    font-size: 20px;
+    padding: 20px;
+    color: #0075FF;
+    font-family: 'Ubuntu', sans-serif;
+
+  }
+
+
+  .nav-items li:hover {
+    font-size: 20px;
+    padding: 20px;
+    color: white;
+    background-color: #0075FF;
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 5px;
+  }
+
+  .project-description-1 {
+    width: 90%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .neoai-image {
+    border-radius: 220px;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .description {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 32px;
+    text-align: center;
+  }
+  .project-description-2 {
+    width: 90%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .memecon-image {
+    border-radius: 220px;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .my-image {
+    width: 50%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 20%;
+  }
+}
+
+@media only screen and (min-width: 769px)  and (max-width: 1024px){
+  .header {
+    font-size: 48px;
+    text-align: center;
+    color: #0075FF;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+
+  .professional-tagline {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 32px;
+  }
+
+  .tagline-area {
+    padding-top: 2%;
+    width: 60%;
+    margin: auto;
+  }
+
+  .navbar {
+    width: 100%;
+    /* background-color: #0075FF; */
+  }
+
+  .nav-items {
+    margin: auto;
+    display: flex;
+    align-items: stretch;
+    list-style: none;
+    justify-content: left;
+  }
+
+  .nav-items li {
+    font-size: 20px;
+    padding: 20px;
+    color: #0075FF;
+    font-family: 'Ubuntu', sans-serif;
+
+  }
+
+
+  .nav-items li:hover {
+    font-size: 20px;
+    padding: 20px;
+    color: white;
+    background-color: #0075FF;
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 5px;
+  }
+
+  .my-image {
+    width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px
+  }
+
+  .neoai-image {
+    float: right;
+    margin-right: 5%;
+    width: 30%;
+    padding-top: 20%;
+    border-radius: 0px;
+  }
+
+  .memecon-image {
+    margin-top:10%;
+    float: right;
+    margin-right: 5%;
+    width: 30%;
+    padding-top: 20%;
+    border-radius: 0px;
+  }
+
+  .description {
+    text-align: justify;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 32px;
+  }
+
+  .project-description-1 {
+    width: 50%;
+    float:left;
+    margin-left:5%;
+  }
+
+  .project-description-2 {
+    width: 50%;
+    float:right;
+    margin-right:5%;
+    margin-top:10%;
+  }
+}
+
+
+@media only screen and (min-width: 1025px)  and (max-width: 1561px){
+  .header {
+    font-size: 48px;
+    text-align: center;
+    color: #0075FF;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+
+  .professional-tagline {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 32px;
+  }
+
+  .tagline-area {
+    padding-top: 2%;
+    width: 60%;
+    margin: auto;
+  }
+
+  .navbar {
+    width: 100%;
+    /* background-color: #0075FF; */
+  }
+
+  .nav-items {
+    margin: auto;
+    display: flex;
+    align-items: stretch;
+    list-style: none;
+    justify-content: left;
+  }
+
+  .nav-items li {
+    font-size: 20px;
+    padding: 20px;
+    color: #0075FF;
+    font-family: 'Ubuntu', sans-serif;
+
+  }
+
+
+  .nav-items li:hover {
+    font-size: 20px;
+    padding: 20px;
+    color: white;
+    background-color: #0075FF;
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 5px;
+  }
+
+  .my-image {
+    width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px
+  }
+
+  .neoai-image {
+    float: right;
+    margin-right: 5%;
+    width: 30%;
+    padding-top: 5%;
+    border-radius: 0px;
+  }
+
+  .memecon-image {
+    margin-top: -50%;
+    float: right;
+    margin-right: 5%;
+    width: 30%;
+    padding-top: 20%;
+    border-radius: 0px;
+  }
+
+  .description {
+    text-align: justify;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 32px;
+  }
+
+  .project-description-1 {
+    width: 50%;
+    float:left;
+    margin-left:5%;
+  }
+
+  .project-description-2 {
+    width: 50%;
+    float:right;
+    margin-right:10%;
+    margin-top:10%;
+  }
+}
+
+.footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background-color: #0075FF;
+  border: 5px solid black;
+}
+
+.footer-content {
   text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 18px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.scale-up-center{-webkit-animation:scale-up-center 5s cubic-bezier(.785,.135,.15,.86) infinite both;animation:scale-up-center 5s cubic-bezier(.785,.135,.15,.86) infinite both}
+.scale-up-center{animation:scale-up-center 1s cubic-bezier(.39,.575,.565,1.000) both}
+a {
+  text-decoration: none;
+  color: #0075FF;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a:visited {
+  color: #0075FF;
 }
