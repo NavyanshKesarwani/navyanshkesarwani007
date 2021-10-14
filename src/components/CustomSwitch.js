@@ -22,7 +22,7 @@ export const CustomSwitch = ({ children }) => {
 
    useEffect(() => {
       setProgress(false)
-   }, [prevLoc]) // eslint-disable-next-line
+   }, [prevLoc])// eslint-disable-next-line
 
    return (
       <>

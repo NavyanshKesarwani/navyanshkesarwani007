@@ -39,7 +39,7 @@
     justify-content: left;
   }
 
-  .nav-items li {
+  .nav-items .nav-link {
     font-size: 20px;
     padding: 20px;
     color: #0075FF;
@@ -48,7 +48,7 @@
   }
 
 
-  .nav-items li:hover {
+  .nav-items .nav-link:hover {
     font-size: 20px;
     padding: 20px;
     color: white;
@@ -132,7 +132,7 @@
     justify-content: center;
   }
 
-  .nav-items li {
+  .nav-items .nav-link {
     font-size: 20px;
     padding: 20px;
     color: #0075FF;
@@ -141,7 +141,7 @@
   }
 
 
-  .nav-items li:hover {
+  .nav-items .nav-link:hover {
     font-size: 20px;
     padding: 20px;
     color: white;
@@ -224,7 +224,7 @@
     justify-content: left;
   }
 
-  .nav-items li {
+  .nav-items .nav-link {
     font-size: 20px;
     padding: 20px;
     color: #0075FF;
@@ -233,7 +233,7 @@
   }
 
 
-  .nav-items li:hover {
+  .nav-items .nav-link:hover {
     font-size: 20px;
     padding: 20px;
     color: white;
@@ -322,7 +322,7 @@
     justify-content: left;
   }
 
-  .nav-items li {
+  .nav-items .nav-link {
     font-size: 20px;
     padding: 20px;
     color: #0075FF;
@@ -331,7 +331,7 @@
   }
 
 
-  .nav-items li:hover {
+  .nav-items .nav-link:hover {
     font-size: 20px;
     padding: 20px;
     color: white;
